@@ -22,3 +22,13 @@
 10. interface도 js의 객체를 옮겨온듯? (js의 object가 기존 변수 선언하듯이 하기, enum, interface로 세분화된 느낌) 있어도 되고 없어도 되는 선택형 선언을 변수 이름 뒤에 ? 붙여주면 할수있음
 11. 변수명 앞에 readonly 붙여주면 읽기전용 프로퍼티 생성가능(const와 동일한듯)
 12. interface는 함수 계약이다. 함수가 전체적으로 따라야 하는 형식을 지정해준다. 콜백함수 파라미터 및 return형식도 지정가능. 지정한 콜백 형식 외 다른 콜백 전달 불가.
+13. class 내부에 #이나 private를 이용해 내부속성 정의 가능
+14. protected로 상속 가능 (java의 oop 가져온듯)
+15. 접근자(세터, 게터)는 일반 method처럼 구현. public을 붙여주면 
+16. static은 정적 맴버. 클래스의 모든 인스턴스에서 공유하는 property or method 정의시 사용
+17. abstract class는 반드시 구현해야 하는 함수 틀. interface와 유사.. JAVA OOP 형식 따서 class부분을 보강한듯
+18. 2개의 abstract class 상속하기 위해 연쇄 상속이 아닌 mixin을 활용할 수 있음
+    a. 선언 합치기
+    b. 인터페이스는 동시에 여러 클래스 상속받을 수 있음
+19. 믹스인 구현 : 부모 클래스에서 상속받은 class로 method signiture 추가 -> 부모 클래스 method 반복하면서 부모와 자식이 공통으로 가진 모든 method 연결
+20. 믹스인은 잘 모르겠음... 실제로 쓰게되면 applymixin 코드 그대로 쓸듯
